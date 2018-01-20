@@ -1,0 +1,95 @@
+body {
+	font-family: Arial;
+	display: block;
+	padding: 100px;
+	margin: 0;
+}
+
+.navbar {
+	position: fixed;
+	background-color: #EEEEEE;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+}
+
+.topright {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+}
+
+.logo h1 {
+	font-size: 20px;
+	font-weight: normal;
+	display: inline-block;
+	margin: 0;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav a {
+	padding: 0 5px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.search, .prevnext {
+	margin-bottom: 20px;
+}
+
+.field {
+	display: inline-block;
+	font-family: arial;
+	font-size: 20px;
+	width: 350px;
+}
+
+.glass {
+	display: inline-block;
+	height: 20px;
+	vertical-align: bottom;
+	padding: 2px 3px 3px 3px;
+}
+
+.field, .glass, .prev, .middle, .next {
+	border-radius: 3px;
+	border: 1px gray solid;
+}
+
+.prev, .middle, .next {
+	padding: 10px 14px 10px 14px;
+}
+
+.prevnext {
+	padding: 10px 0px;
+}
+
+.posting {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.date, .post, .location {
+	display: inline;
+	color: gray;
+}
+
+.post {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: 600;
+}
